@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Solar System</title>
+        <style>
+            @font-face {
+                font-family: 'teaser-font';
+                src: url('./font/MedulOne-Regular.ttf') format('truetype');
+            }
+            h1 {
+                font-family: 'teaser-font';
+                font-size: 50px;
+            }
+            p {
+                font-family: 'teaser-font';
+                font-size: 35px;
+            }
+            ::selection {
+                background-color: #505050;
+            }
+            html,
+            body,
+            .container {
+                overflow: hidden;
+                background-color: black;
+                height: 100%;
+                color: white;
+            }
+            .d-flex {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .mt-1 {
+                margin-top: 6rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <span class="d-flex mt-1"><h1> Black Hole!</h1></span>
+                <hr class="w-30">
+                <div class="d-flex">
+                    <pre class="center" id="d"></pre>
+                </div>
+                <div class="d-flex">
+                    <span>
+                        <p>Andrew Hutasoit</p>
+                    </div></span>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="thehole.js"></script>
+</html>
